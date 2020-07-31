@@ -1,2 +1,2 @@
 file = open("quotes.txt","w")
-file.write("You are kinda epic ngl")
+file.append("You are kinda epic ngl")
