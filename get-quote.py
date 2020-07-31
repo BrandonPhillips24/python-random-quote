@@ -1,11 +1,13 @@
+import random
+rand = random.randint(0,13)
 def primary():
-  print("Keep it logically awesome.")
+ # print("Keep it logically awesome.")
+  f = open("quotes.txt")
 
-f = open("quotes.txt")
-quotes = f.readlines()
-f.close()
+  quotes = f.readlines()
+  f.close()
 
-print(quotes[0])
+  print(quotes[rand])
 
 if __name__== "__main__":
   primary()
