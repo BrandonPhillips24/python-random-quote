@@ -1,5 +1,5 @@
 import random
-rand = random.randint(0,13)
+rand = random.randint(0,19)
 def primary():
  # print("Keep it logically awesome.")
   f = open("quotes.txt")
