@@ -1,8 +1,8 @@
 import random
-rand = random.randint(0,19)
-rand2 = random.randint(0,19)
+rand = random.randint(0,20)
+rand2 = random.randint(0,20)
 while rand == rand2:
-  rand2 = random.randint(0,19)
+  rand2 = random.randint(0,20)
 
 
 def primary():
